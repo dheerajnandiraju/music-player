@@ -17,12 +17,12 @@ export default function Index  () {
             <StatusBar hidden={true} />
             <View style={style.circle1}></View>
             <View style={style.circle2}></View>
-           <TouchableNativeFeedback onPress={()=>navigation.navigate("account")}>
+           <TouchableNativeFeedback onPress={()=>navigation.navigate("Login")}>
                 <View  style={style.account}>
                     <AntDesign name="user" size={30} color="white" />
                 </View>
             </TouchableNativeFeedback>
-            <TouchableNativeFeedback onPress={settings}>
+            <TouchableNativeFeedback onPress={()=>navigation.navigate("Login")}>
             <View style={style.settings}>
                 <Feather name="settings" size={24} color="white" />
             </View>
