@@ -79,13 +79,14 @@ recommended:{
 //------------login page--------
 
 login:{
-    padding:10,
-    marginTop:10,
+    marginTop:'40%',
+    padding:'3%',
     display:"flex",
+    flex:1,
     alignSelf:"center",
-    height: 300,
-    width:300,
- backgroundColor:"#505050",
+    height: '100%',
+    width:'80%',
+ backgroundColor:"#535353",
  borderWidth:1,
  borderColor:"white",
  borderRadius:10,
@@ -95,13 +96,13 @@ login:{
 
 label:{
     
-    fontSize:13,
+    fontSize:10,
     color:"white"
 },
 
 username:{
-    marginBottom:10,
-    marginTop:10,
+    marginBottom:'5%',
+    marginTop:'2%',
     borderWidth:1,
     borderColor:"white",
     borderRadius:10,
@@ -110,9 +111,10 @@ username:{
 },
 
 logintext:{
-    fontSize:20,
+    textAlign:'center',
+    fontSize:12,
     color:"white",
-    marginBottom:30,
+    marginBottom:'10%',
 },
 
 screen2:{
@@ -123,18 +125,17 @@ screen2:{
 
 button:{
     alignSelf:"center",
-    marginTop:25,
-    height:30,
-    width:225,
-    backgroundColor:"green",
+    height:'13%',
+    width:'50%',
+    backgroundColor:"#1db954",
     borderWidth:1,
     borderColor:"white",
     borderRadius:10,
 },
 
 submit:{
-    fontSize:20,
-   marginTop:1,
+    fontSize:15,
+   marginTop:0,
     textAlign:"center",
 color:"white",
 }
