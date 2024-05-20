@@ -24,7 +24,7 @@ export default function app() {
                   fontSize:17
                 },
               }}
-            initialRouteName="Login">
+            initialRouteName="Home">
                 <stack.Screen name='Home' component={Index}/>
                 <stack.Screen name='Main' component={bottom} options={{headerShown:false}}/>
                 <stack.Screen name= 'Login' component={Account}/>
